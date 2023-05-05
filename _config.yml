@@ -109,4 +109,4 @@ deploy:
 
 lazyload:
   enable: true
-  loadingImg: fa-thin fa-spinner-third
+  loadingImg: https://s2.loli.net/2023/05/05/pZVn91d5RFWDj68.jpg
