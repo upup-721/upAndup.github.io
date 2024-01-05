@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>testPicture</title>
+      <link href="/2024/01/05/testPicture/"/>
+      <url>/2024/01/05/testPicture/</url>
+      
+        <content type="html"><![CDATA[<h1 id="测试图片的插入"><a href="#测试图片的插入" class="headerlink" title="测试图片的插入"></a>测试图片的插入</h1><h2 id="hexo-renderer-marked-插件使用"><a href="#hexo-renderer-marked-插件使用" class="headerlink" title="hexo-renderer-marked 插件使用"></a>hexo-renderer-marked 插件使用</h2><p><img src="/2024/01/05/testPicture/dlo.jpg"></p><hr><img src="/2024/01/05/testPicture/dlo.jpg" class="" title="test">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> practice </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/01/04/hello-world/"/>
+      <url>/2024/01/04/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test_Butterfly_1</title>
+      <link href="/2023/05/05/Test-Butterfly-1/"/>
+      <url>/2023/05/05/Test-Butterfly-1/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="Page-Front-matter"><a href="#Page-Front-matter" class="headerlink" title="Page Front-matter"></a>Page Front-matter</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aside:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h1 id="测试标题和提交"><a href="#测试标题和提交" class="headerlink" title="测试标题和提交"></a>测试标题和提交</h1><h2 id="测试标签外挂"><a href="#测试标签外挂" class="headerlink" title="测试标签外挂"></a>测试标签外挂</h2><div class="note icon-padding flat"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 還是 UnionPay</p></div><div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>2021 年快到了….</p></div><div class="note pink icon-padding flat"><i class="note-icon fas fa-car-crash"></i><p>小心開車 安全至上</p></div><div class="note red icon-padding flat"><i class="note-icon fas fa-fan"></i><p>這是三片呢？還是四片？</p></div><div class="note orange icon-padding flat"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 還是 UnionPay</p></div><div class="note purple icon-padding flat"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石頭布</p></div><div class="note green icon-padding flat"><i class="note-icon fab fa-internet-explorer"></i><p>前端最討厭的瀏覽器</p></div><h2 id="测试图片的添加"><a href="#测试图片的添加" class="headerlink" title="测试图片的添加"></a>测试图片的添加</h2><hr><p><img src="/Test-butterfly-1/image-20230505123247478.png" alt="image-20230505123247478"></p><hr><p><img src="/2023/05/05/Test-Butterfly-1/img-20230505142906.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试练习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> first time </tag>
+            
+            <tag> practice </tag>
+            
+            <tag> simple test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
