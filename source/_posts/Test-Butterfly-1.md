@@ -61,6 +61,10 @@ highlight_shrink:
 
 ## 测试图片的添加
 
-## ![image-20230505123247478](Test-Butterfly-1.assets/image-20230505123247478.png)
+---
 
-![](assets/Test-Butterfly-1/img-20230505142906.png)
+![image-20230505123247478](image-20230505123247478.png)
+
+---
+
+![](img-20230505142906.png)

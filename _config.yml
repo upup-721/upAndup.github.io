@@ -40,7 +40,15 @@ external_link:
   exclude: ""
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked: # hexo-renderer-marked：modify pictures' path
+  prependRoot: true
+  postAsset: true
+# markdown:
+#   images:
+#     prepend_root: true
+#     post_asset: true
+
 relative_link: false
 future: true
 highlight:
