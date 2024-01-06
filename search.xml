@@ -4,17 +4,54 @@
   
     
     <entry>
-      <title>testPicture</title>
-      <link href="/2024/01/05/testPicture/"/>
-      <url>/2024/01/05/testPicture/</url>
+      <title>问题总结及注意事项</title>
+      <link href="/2024/01/06/Summary/"/>
+      <url>/2024/01/06/Summary/</url>
       
-        <content type="html"><![CDATA[<h1 id="测试图片的插入"><a href="#测试图片的插入" class="headerlink" title="测试图片的插入"></a>测试图片的插入</h1><h2 id="hexo-renderer-marked-插件使用"><a href="#hexo-renderer-marked-插件使用" class="headerlink" title="hexo-renderer-marked 插件使用"></a>hexo-renderer-marked 插件使用</h2><p><img src="/2024/01/05/testPicture/dlo.jpg"></p><hr><img src="/2024/01/05/testPicture/dlo.jpg" class="" title="test">]]></content>
+        <content type="html"><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>本篇为入门，旨在记录初次搭建使用<code>hexo</code>的一些踩坑经历</p></div><h2 id="x1F517-本地搭建hexo步骤"><a href="#x1F517-本地搭建hexo步骤" class="headerlink" title="&#x1F517;  本地搭建hexo步骤"></a>&#x1F517;  本地搭建hexo步骤</h2><div class="note blue icon-padding flat"><i class="note-icon fas fa-info"></i><p>利用<code>github</code>的分支快速搭建与备份</p><ol><li>hexo分支作为默认分支，存放基本的配置信息，更新文章或更改配置需要push到该分支</li><li>main分支用来部署hexo文章，交由 GitHub Pages 托管</li></ol><p>详见这篇<a href="https://blog.csdn.net/K1052176873/article/details/122879462">Hexo在多台电脑上提交和更新_hexo 多机更新-CSDN博客</a>(…感谢大佬)</p></div><h3 id="clone仓库到本地（clone的是默认分支，即我的hexo分支）"><a href="#clone仓库到本地（clone的是默认分支，即我的hexo分支）" class="headerlink" title="clone仓库到本地（clone的是默认分支，即我的hexo分支）"></a>clone仓库到本地（clone的是默认分支，即我的hexo分支）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:username/username.github.io.git</span><br><span class="line">---</span><br><span class="line">git <span class="built_in">clone</span> git@github.com:upup-721/upup-721.github.io.git</span><br></pre></td></tr></table></figure><h3 id="下载依赖"><a href="#下载依赖" class="headerlink" title="下载依赖"></a>下载依赖</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure><blockquote><ol><li>可用<code>npm list</code>检查依赖列表及版本，我当前使用如下</li></ol><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt;hexo-site@0.0.0 D:\MyBlog\hexo_butterfly\upup-721.github.io</span><br><span class="line">&gt;+-- hexo-deployer-git@4.0.0</span><br><span class="line">&gt;+-- hexo-generator-archive@2.0.0</span><br><span class="line">&gt;+-- hexo-generator-category@2.0.0</span><br><span class="line">&gt;+-- hexo-generator-index@3.0.0</span><br><span class="line">&gt;+-- hexo-generator-search@2.4.3</span><br><span class="line">&gt;+-- hexo-generator-tag@2.0.0</span><br><span class="line">&gt;+-- hexo-lazyload-image@1.0.13</span><br><span class="line">&gt;+-- hexo-renderer-ejs@2.0.0</span><br><span class="line">&gt;+-- hexo-renderer-marked@6.2.0</span><br><span class="line">&gt;+-- hexo-renderer-pug@3.0.0</span><br><span class="line">&gt;+-- hexo-renderer-stylus@2.1.0</span><br><span class="line">&gt;+-- hexo-server@3.0.0</span><br><span class="line">&gt;+-- hexo-theme-butterfly@4.12.0</span><br><span class="line">&gt;+-- hexo-theme-landscape@0.0.3</span><br><span class="line">&gt;`-- hexo@6.3.0</span><br></pre></td></tr></table></figure><ol start="2"><li>检查butterfly主题是否下载成功，获取备份复制到theme文件夹下</li></ol></blockquote><h3 id="依次执行hexo-clean、hexo-g、hexo-s，看能否正常在本地预览"><a href="#依次执行hexo-clean、hexo-g、hexo-s，看能否正常在本地预览" class="headerlink" title="依次执行hexo clean、hexo g、hexo s，看能否正常在本地预览"></a>依次执行<code>hexo clean、hexo g、hexo s</code>，看能否正常在本地预览</h3>]]></content>
       
+      
+      <categories>
+          
+          <category> 测试练习 </category>
+          
+      </categories>
       
       
         <tags>
             
             <tag> practice </tag>
+            
+            <tag> problems </tag>
+            
+            <tag> attention </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>testPicture</title>
+      <link href="/2024/01/05/testPicture/"/>
+      <url>/2024/01/05/testPicture/</url>
+      
+        <content type="html"><![CDATA[<h1 id="测试图片的插入"><a href="#测试图片的插入" class="headerlink" title="测试图片的插入"></a>测试图片的插入</h1><h2 id="使用hexo-renderer-marked"><a href="#使用hexo-renderer-marked" class="headerlink" title="使用hexo-renderer-marked"></a>使用hexo-renderer-marked</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">![](<span class="link">dlo.jpg</span>)</span></span><br><span class="line"><span class="section">---------------------------</span></span><br><span class="line">&#123;% asset<span class="emphasis">_img dlo.jpg test %&#125;</span></span><br><span class="line"><span class="emphasis"></span></span><br></pre></td></tr></table></figure><p>效果如下：</p><blockquote><p><img src="/2024/01/05/testPicture/dlo.jpg"></p><hr><img src="/2024/01/05/testPicture/dlo.jpg" class="" title="test"></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试练习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> practice </tag>
+            
+            <tag> first time </tag>
             
         </tags>
       
@@ -40,7 +77,7 @@
       <link href="/2023/05/05/Test-Butterfly-1/"/>
       <url>/2023/05/05/Test-Butterfly-1/</url>
       
-        <content type="html"><![CDATA[<hr><h2 id="Page-Front-matter"><a href="#Page-Front-matter" class="headerlink" title="Page Front-matter"></a>Page Front-matter</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aside:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h1 id="测试标题和提交"><a href="#测试标题和提交" class="headerlink" title="测试标题和提交"></a>测试标题和提交</h1><h2 id="测试标签外挂"><a href="#测试标签外挂" class="headerlink" title="测试标签外挂"></a>测试标签外挂</h2><div class="note icon-padding flat"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 還是 UnionPay</p></div><div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>2021 年快到了….</p></div><div class="note pink icon-padding flat"><i class="note-icon fas fa-car-crash"></i><p>小心開車 安全至上</p></div><div class="note red icon-padding flat"><i class="note-icon fas fa-fan"></i><p>這是三片呢？還是四片？</p></div><div class="note orange icon-padding flat"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 還是 UnionPay</p></div><div class="note purple icon-padding flat"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石頭布</p></div><div class="note green icon-padding flat"><i class="note-icon fab fa-internet-explorer"></i><p>前端最討厭的瀏覽器</p></div><h2 id="测试图片的添加"><a href="#测试图片的添加" class="headerlink" title="测试图片的添加"></a>测试图片的添加</h2><hr><p><img src="/Test-butterfly-1/image-20230505123247478.png" alt="image-20230505123247478"></p><hr><p><img src="/2023/05/05/Test-Butterfly-1/img-20230505142906.png"></p>]]></content>
+        <content type="html"><![CDATA[<hr><h2 id="Page-Front-matter"><a href="#Page-Front-matter" class="headerlink" title="Page Front-matter"></a>Page Front-matter</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aside:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h1 id="测试标题和提交"><a href="#测试标题和提交" class="headerlink" title="测试标题和提交"></a>测试标题和提交</h1><h2 id="测试标签外挂"><a href="#测试标签外挂" class="headerlink" title="测试标签外挂"></a>测试标签外挂</h2><div class="note icon-padding flat"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 還是 UnionPay</p></div><div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>2021 年快到了….</p></div><div class="note pink icon-padding flat"><i class="note-icon fas fa-car-crash"></i><p>小心開車 安全至上</p></div><div class="note red icon-padding flat"><i class="note-icon fas fa-fan"></i><p>這是三片呢？還是四片？</p></div><div class="note orange icon-padding flat"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 還是 UnionPay</p></div><div class="note purple icon-padding flat"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石頭布</p></div><div class="note green icon-padding flat"><i class="note-icon fab fa-internet-explorer"></i><p>前端最討厭的瀏覽器</p></div><h2 id="测试图片的添加"><a href="#测试图片的添加" class="headerlink" title="测试图片的添加"></a>测试图片的添加</h2><hr><p><img src="/2023/05/05/Test-Butterfly-1/image-20230505123247478.png" alt="image-20230505123247478"></p><hr><p><img src="/2023/05/05/Test-Butterfly-1/img-20230505142906.png"></p>]]></content>
       
       
       <categories>
@@ -52,9 +89,9 @@
       
         <tags>
             
-            <tag> first time </tag>
-            
             <tag> practice </tag>
+            
+            <tag> first time </tag>
             
             <tag> simple test </tag>
             
